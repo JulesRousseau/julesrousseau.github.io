@@ -6,9 +6,9 @@ tags:
   - Heuristics
   - Grid generation
 ---
-<p style="text-align: right; display: flex; align-items: center;">
-  <span style="font-size: 2em; margin-right: 10px;">{{< icon name="hero/user" >}}</span>
-  <span style="font-size: 2em;">{{< icon name="devicon/c" >}}</span>
+<p style="text-align: right;">
+  <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span>
+  <span style="font-size: 2em; margin-left: 10px">{{< icon name="devicon/c" >}}</span>
 </p>
 
 

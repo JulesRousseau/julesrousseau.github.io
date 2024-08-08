@@ -6,9 +6,10 @@ tags:
   - Heuristics
   - Grid generation
 ---
-**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span>
-
-**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/c" >}}</span>
+<p style="text-align: right; display: flex; align-items: center;">
+  <span style="font-size: 2em; margin-right: 10px;">{{< icon name="hero/user" >}}</span>
+  <span style="font-size: 2em;">{{< icon name="devicon/c" >}}</span>
+</p>
 
 
 The goal of this project was to generate random Sudoku grids of sizes from 1x1 to 64x64 and to solve them using heuristics to complete this task in the minimum amount of time. As some generated grids may allow multiple solutions and require making choices to continue the resolution, I used backtracking to deal with choices leading to inconsistent solved grids. Backtracking was also used in order to generate grid with a **unique** solution. The generation consists in first filling randomly a grid to a solved grid, then blanking some cells randomly and try to solve the grid. If the grid has more than one solution while the unique option is specified, the cell is reset to its solved value and another random cell is blanked among the remaining ones. If the process take too much time, another full grid is generated and we blank random cells again.

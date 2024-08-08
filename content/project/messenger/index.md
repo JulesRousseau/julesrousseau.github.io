@@ -8,9 +8,11 @@ tags:
   - Java
 ---
 
-**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user-group" >}}</span>
+<p style="text-align: right; display: flex; align-items: center;">
+  <span style="font-size: 2em; margin-right: 10px;">{{< icon name="hero/user-group" >}}</span>
+  <span style="font-size: 2em;">{{< icon name="devicon/java" >}}</span>
+</p>
 
-**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/java" >}}</span>
 
 This project is a console application implementing a secure messenger based on the [Signal app algorithm](https://signal.org/docs/specifications/doubleratchet/doubleratchet.pdf). The aim was to program end-to-end encryption through sockets for both the server and clients. Each client connects to the server, generates its certificate, and sends it to the server for storage. The clients use the Double Ratchet algorithm to generate root keys, encrypt their messages with AES-GCM, and use the Diffie-Hellman protocol to exchange keys, ensuring that only the clients share the secret key to decrypt the messages. The server acts solely as an intermediary and stores the certificates. Each client is managed by a client handler.
 

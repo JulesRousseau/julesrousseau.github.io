@@ -9,10 +9,10 @@ tags:
 ---
 ## [AES (Advanced Encryption Standard)](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf)
 
-**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span>
-
-**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/c" >}}</span>
-
+<p style="text-align: right; display: flex; align-items: center;">
+  <span style="font-size: 2em; margin-right: 10px;">{{< icon name="hero/user" >}}</span>
+  <span style="font-size: 2em;">{{< icon name="devicon/c" >}}</span>
+</p>
 
 As part of my cryptography project, I developed a complete implementation of the AES in the C programming language following the FIPS 197 standard. This project includes the creation of a program capable of encrypting and decrypting files using both ECB and CBC modes.
 
@@ -22,9 +22,10 @@ For the AES implementation, I used tables generated via SageMath for the S-boxes
 
 ## [DSA (Digital Signature Algorithm)](https://csrc.nist.gov/files/pubs/fips/186-3/final/docs/fips_186-3.pdf)
 
-**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span>
-
-**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/java" >}}</span>
+<p style="text-align: right; display: flex; align-items: center;">
+  <span style="font-size: 2em; margin-right: 10px;">{{< icon name="hero/user" >}}</span>
+  <span style="font-size: 2em;">{{< icon name="devicon/java" >}}</span>
+</p>
 
 
 In my project on implementing the DSA as specified by the FIPS 186-3 standard, I focused on leveraging existing functions from the BigInteger module (multiprecision library) to streamline the development process.
@@ -35,8 +36,10 @@ This project was a holiday assignment to prepare for my Master’s 2 studies and
 
 ## [Midori-64](https://eprint.iacr.org/2015/1142.pdf) 
 
-<p style="text-align: right;">**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span></p>
-<p style="text-align: right;">**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/python" >}}</span></p>
+<p style="text-align: right; display: flex; align-items: center;">
+  <span style="font-size: 2em; margin-right: 10px;">{{< icon name="hero/user" >}}</span>
+  <span style="font-size: 2em;">{{< icon name="devicon/python" >}}</span>
+</p>
 
 
 Midori-64 is actually a cryptographic algorithm, specifically a lightweight block cipher. 

@@ -1,186 +1,130 @@
 ---
 # Display name
-title: 吳健雄
+title: Jules ROUSSEAU
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
+first_name: Jules
+last_name: ROUSSEAU
 # Status emoji
-status:
-  icon: ☕️
-
+#status:
+#  icon: ☕️
 # Is this the primary user of the site?
 superuser: true
-
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-
 # Role/position/tagline
-role: Chief Scientist
-
+role: Research Intern
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
-
+  - icon: custom/inria-logo
+    name: Inria | Capsule Team
+    url: https://www.inria.fr/fr/capsule
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:jr.julesrousseau@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/JulesRousseau
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
-
+    url: https://www.linkedin.com/in/jules-rousseau-3ab133207/
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
-education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - Cryptography
+  - Security engineering
+  - Vulnerability research
+education:    
+  - area: Master II cryptography
+    institution: University of Rennes, Cyberschool
+    date_start: 2022-04-01
+    date_end: 2024-09-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Security of Implementations (side channel analysis on FPGA and code review)
+      - Private and Public key cryptanalysis
+      - Network security
+      - Quantum cryptography
+      - Lattices
+      - Machine learning and Deep learning
+      - Error-correcting codes
+      - Elliptic curves
+      - C++, blockchain (options)
+  - area: Mathematics Bachelor
+    institution: University of Angers
+    date_start: 2019-04-07
+    date_end: 2022-09-30
     summary: |
-      GPA: 3.4/4.0
-      
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Linear and bilinear algebra
+      - Rings and groups
+      - Probabilities
+      - Euclidean geometry
+  - area: Scientific Baccalaureate
+    institution: Lycée François Truffaut
+    date_start: 2018-09-01
+    date_end: 2019-03-01
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Research internship
+    name: Inria in Capsule Team
     company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    company_logo: /assets/media/icons/inria-logo.svg
+    date_start: 2024-04-01
+    date_end: 2024-09-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      Lightweight symmetric cryptanalysis
+      - Cube attacks, Integral distinguishers
+      - MILP / SAT modelling of ASCON-128 and GIFT-64 ciphers
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
+      - name: Programming
+        description: 'Python, Sagemath, C & C++, Java, Solidity'
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
+      - name: Development Tools
+        description: 'Latex, Bash, Git'
         percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
+        icon: hero/command-line
+      - name: Optimization and Solvers
+        description: 'MILP, SAT, Gurobi'
         percent: 40
-        icon: circle-stack
+        icon: hero/rocket-launch
+      - name: Scientific research
+        description: 'Lightweight encryption, symmetric cryptanalysis'
+        percent: 40
+        icon: hero/book-open
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
+      - name: Climbing
+        description: 'Route climbing and Bouldering'
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Swimming
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+        icon: hero/lifebuoy
+      - name: Aircraft Piloting
+        description: "Brevet d'Initiation Aéronautique (BIA) obtained in 2018.
+        Cessna 172 piloting. The objective is to obtain the private pilot licence"
         percent: 80
-        icon: camera
-
+        icon: hero/paper-airplane
+      - name: tortoise love and care
+        description: "Proud owner of two wonderful tortoises"
+        percent: 80
+        icon: hero/heart
 languages:
-  - name: English
+  - name: French
     percent: 100
-  - name: Chinese
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - name: Spanish
+    percent: 50
 ---
-
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm currently finishing my Master II internship in the research labs of Inria/Irisa at Rennes supervised by [André Schrotteloher](https://andreschrottenloher.github.io/) and [Patrick Derbez](https://people.irisa.fr/Patrick.Derbez/). I focus on searching cube attacks on symmetric algorithms including the [Ascon-128](https://csrc.nist.gov/CSRC/media/Projects/lightweight-cryptography/documents/round-2/spec-doc-rnd2/ascon-spec-round2.pdf) authenticated cipher. A huge part of my work is to model the ciphers in MILP (Mixed Linear Programming) to search for integral distinguishers.

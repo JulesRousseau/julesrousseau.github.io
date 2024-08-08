@@ -8,6 +8,10 @@ tags:
   - C programming
 ---
 
+### Project Type : {{< icon name="hero/users" >}} 
+### Coding       : {{< icon name="devicon/c" >}}
+
+
 As part of a Master I cryptography project, I implemented a software program that performs steganography and steganalysis. The software allows hiding grayscale images and text messages in a so-called grayscale **stego image**. Various methods can be used:
 1. Hiding the information in the Least Significant Bits (LSB) plane of the image (default behavior).
 2. Hiding secret data in a chosen bit plane among the 8 possible ones.

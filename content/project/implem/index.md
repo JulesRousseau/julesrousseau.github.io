@@ -8,14 +8,24 @@ tags:
   - MIDORI
 ---
 ## [AES (Advanced Encryption Standard)](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf)
-{{< icon name="devicon/c" >}} As part of my cryptography project, I developed a complete implementation of the AES in the C programming language following the FIPS 197 standard. This project includes the creation of a program capable of encrypting and decrypting files using both ECB and CBC modes.
+
+### Project Type : {{< icon name="hero/user" >}} 
+### Coding       : {{< icon name="devicon/c" >}}
+
+
+As part of my cryptography project, I developed a complete implementation of the AES in the C programming language following the FIPS 197 standard. This project includes the creation of a program capable of encrypting and decrypting files using both ECB and CBC modes.
 
 My program runs from a terminal and supports several options, such as selecting the encryption key, choosing the encryption mode (ECB by default, CBC optional), and displaying the results in hexadecimal format. An integrated user manual allows users to view the available commands.
 
 For the AES implementation, I used tables generated via SageMath for the S-boxes and polynomial-exponentiation transformations. I also developed specific procedures to handle conversions as for instance : hexadecimal (within a string) to int.
 
 ## [DSA (Digital Signature Algorithm)](https://csrc.nist.gov/files/pubs/fips/186-3/final/docs/fips_186-3.pdf)
-{{< icon name="devicon/java" >}} In my project on implementing the DSA as specified by the FIPS 186-3 standard, I focused on leveraging existing functions from the BigInteger module (multiprecision library) to streamline the development process.
+
+### Project Type : {{< icon name="hero/user" >}} 
+### Coding       : {{< icon name="devicon/java" >}}
+
+
+In my project on implementing the DSA as specified by the FIPS 186-3 standard, I focused on leveraging existing functions from the BigInteger module (multiprecision library) to streamline the development process.
 
 The signature needs a hash function, thus I used the **SHA-1 hash function**.
 
@@ -23,7 +33,11 @@ This project was a holiday assignment to prepare for my Master’s 2 studies and
 
 ## [Midori-64](https://eprint.iacr.org/2015/1142.pdf) 
 
-{{< icon name="python" >}} Midori-64 is actually a cryptographic algorithm, specifically a lightweight block cipher. 
+### Project Type : {{< icon name="hero/user" >}} 
+### Coding       : {{< icon name="devicon/python" >}}
+
+
+Midori-64 is actually a cryptographic algorithm, specifically a lightweight block cipher. 
 
 This cipher encrypts 64-bit blocks using a 128-bit key. The algorithm performs 16 rounds of encryption, where each round involves several key components: **SubCells** for nonlinear substitution (adding confusion), **MixColumn** for linear transformation (ensuring diffusion), **ShiftRows** for rearranging bits across rows, and **AddRoundKey**, which applies a XOR with a round key to the data.
 

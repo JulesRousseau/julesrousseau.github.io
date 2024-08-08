@@ -8,8 +8,9 @@ tags:
   - C programming
 ---
 
-**Project Type  : {{< icon name="hero/users" >}}** 
-**Programming : {{< icon name="devicon/c" >}}**
+**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/users" >}}</span>
+
+**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/c" >}}</span>
 
 
 As part of a Master I cryptography project, I implemented a software program that performs steganography and steganalysis. The software allows hiding grayscale images and text messages in a so-called grayscale **stego image**. Various methods can be used:

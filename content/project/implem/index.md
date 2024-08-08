@@ -35,9 +35,8 @@ This project was a holiday assignment to prepare for my Master’s 2 studies and
 
 ## [Midori-64](https://eprint.iacr.org/2015/1142.pdf) 
 
-**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span>
-
-**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/python" >}}</span>
+<p style="text-align: right;">**Project Type:** <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span></p>
+<p style="text-align: right;">**Programming:** <span style="font-size: 2em;">{{< icon name="devicon/python" >}}</span></p>
 
 
 Midori-64 is actually a cryptographic algorithm, specifically a lightweight block cipher. 

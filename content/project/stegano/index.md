@@ -24,7 +24,7 @@ The software can also decrypt the message/image hidden in a stego image by knowi
 ![image](image.png)
 ### Steganalysis
 
-In this project, it is possible to perform steganalysis by extracting the bit planes of a grayscale image to visually examine if secret data is embedded. It also allows comparing two different image planes by displaying their difference. Thus, it's possible to see clearly where the secret is embedded, as we know the before and after stego images.
+In this project, it is possible to perform steganalysis by extracting the bit planes of a grayscale image to visually examine if secret data is embedded. For example, we can see on the LSB plan below that secret information is embedded in the upper part of the image. It also allows comparing two different image planes by displaying their difference. Thus, it's possible to see clearly where the secret is embedded, as we know the before and after stego images.
 
 <html lang="en">
 <head>
@@ -67,7 +67,7 @@ In this project, it is possible to perform steganalysis by extracting the bit pl
         </figure>
         <figure class="image-item">
             <img src="hote_96x64.png">
-            <figcaption>Stego image 96x64 pixelsn</figcaption>
+            <figcaption>Stego image (96x64 pixels)</figcaption>
         </figure>
     </div>
 </body>

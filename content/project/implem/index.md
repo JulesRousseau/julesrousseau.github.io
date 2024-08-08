@@ -9,8 +9,8 @@ tags:
 ---
 ## [AES (Advanced Encryption Standard)](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf)
 
-### Project Type : {{< icon name="hero/user" >}} 
-### Coding       : {{< icon name="devicon/c" >}}
+**Project Type  : {{< icon name="hero/user" >}}** 
+**Programming : {{< icon name="devicon/c" >}}**
 
 
 As part of my cryptography project, I developed a complete implementation of the AES in the C programming language following the FIPS 197 standard. This project includes the creation of a program capable of encrypting and decrypting files using both ECB and CBC modes.

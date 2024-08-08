@@ -28,16 +28,16 @@ In this project, it is possible to perform steganalysis by extracting the bit pl
     <style>
         .image-gallery {
             display: flex;
-            gap: 15px; 
+            gap: 30px; 
             flex-wrap: wrap;
         }
         .image-item {
             text-align: center;
-            max-width: 200px; 
+            max-width: 288px; 
         }
         .image-item img {
-            width: 144px; 
-            height: 96px;
+            width: 288px; 
+            height: 144px;
         }
         .image-item figcaption {
             margin-top: 8px;

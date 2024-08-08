@@ -81,7 +81,7 @@ skills:
   - name: Technical Skills
     items:
       - name: Programming
-        description: 'Python, Sagemath, C & C++, Java, Solidity'
+        description: 'Python, Sagemath, Magma, C & C++, Java, Solidity'
         percent: 80
         icon: code-bracket
       - name: Development Tools

@@ -11,7 +11,7 @@ The goal of this project was to generate random Sudoku grids of sizes from 1x1 t
 
 Below is an example of utilisation of the program.
 
-<pre>> ./sudoku --generate=25 --unique --output grid_25.txt
+<pre style="font-size: 0.8em; line-height: 1.2;">> ./sudoku --generate=25 --unique --output grid_25.txt
 
 ***** Generating grid of size 25 ...
 

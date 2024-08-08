@@ -11,7 +11,7 @@ tags:
 
 <p style="text-align: right">
   <span style="font-size: 2em;">{{< icon name="hero/user" >}}</span>
-  <span style="margin-left: 10px; font-size: 2em;">{{< icon name="devicon/c" >}}</span>
+  <span style="font-size: 2em; margin-left: 10px;">{{< icon name="devicon/c" >}}</span>
 </p>
 
 As part of my cryptography project, I developed a complete implementation of the AES in the C programming language following the FIPS 197 standard. This project includes the creation of a program capable of encrypting and decrypting files using both ECB and CBC modes.

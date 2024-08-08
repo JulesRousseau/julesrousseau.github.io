@@ -8,9 +8,9 @@ tags:
   - Java
 ---
 
-<p style="text-align: right">
+<p style="text-align: right;">
   <span style="font-size: 2em;">{{< icon name="hero/user-group" >}}</span>
-  <span style="font-size: 2em; margin-left: 10px">{{< icon name="devicon/java" >}}</span>
+  <span style="font-size: 2em; margin-left: 10px;">{{< icon name="devicon/java" >}}</span>
 </p>
 
 

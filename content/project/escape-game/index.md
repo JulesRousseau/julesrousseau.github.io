@@ -5,6 +5,7 @@ external_link:
 tags:
   - escape game
   - html
+  - Genialy
 ---
 Here's a slightly different project I did in my spare time. I integrated some html scripts into a Genialy slideshow to create a little escape game. Of course, the subject is cybersecurity but it's designed so that **anyone** can do it. It may take a little time to complete. So... give it your best shot!
 

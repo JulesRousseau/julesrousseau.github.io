@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="R-p8kGP5D7NpmkthFlH3ftdWeAAFxBde4Hg5ATGJmfY" />
 ---
 # Display name
 title: Jules ROUSSEAU
@@ -127,5 +126,6 @@ languages:
     percent: 50
 ---
 ## About Me
+<meta name="google-site-verification" content="R-p8kGP5D7NpmkthFlH3ftdWeAAFxBde4Hg5ATGJmfY" />
 
 I'm currently finishing my Master II internship in the research labs of Inria/Irisa at Rennes supervised by [André Schrotteloher](https://andreschrottenloher.github.io/) and [Patrick Derbez](https://people.irisa.fr/Patrick.Derbez/). I focus on searching cube attacks on symmetric algorithms including the [Ascon-128](https://csrc.nist.gov/CSRC/media/Projects/lightweight-cryptography/documents/round-2/spec-doc-rnd2/ascon-spec-round2.pdf) authenticated cipher. A huge part of my work is to model the ciphers in MILP (Mixed Linear Programming) to search for integral distinguishers.

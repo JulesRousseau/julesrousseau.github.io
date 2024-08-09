@@ -28,11 +28,11 @@ For the AES implementation, I used tables generated via SageMath for the S-boxes
 </p>
 
 
-In my project on implementing the DSA as specified by the FIPS 186-3 standard, I focused on leveraging existing functions from the BigInteger module (multiprecision library) to streamline the development process.
+In my project on implementing the DSA as specified by the FIPS 186-3 standard, I focused on leveraging existing functions from the BigInteger module (multiprecision library) to streamline the development process. Indeed, BigInteger provides operations for modular arithmetic, GCD calculation, primality testing, prime generation, and bit manipulation on large integers needed for the signature.
 
 The signature needs a hash function, thus I used the **SHA-1 hash function**.
 
-This project was a holiday assignment to prepare for my Master’s 2 studies and to gain some experience with Java. I learned how to handle classes to manage private and public keys (x, y) and the signature parameters (r, s). This setup facilitates the generation of new key pairs and signatures using the "new" command and allows for updates as needed.This project was a Holiday project to prepare the Master 2 back, and try to learn a bit of Java. I learnt how to handle classes to manage private and public keys (x, y) and the signature parameters (r, s). This setup facilitates the generation of new key pairs and signatures using the "new" command and allows for updates as needed.
+This project was a holiday assignment to prepare for my Master’s 2 studies and to gain some experience with Java. I learned how to handle classes to manage private and public keys (x, y) and the signature parameters (r, s). This setup facilitates the generation of new key pairs and signatures using the "new" command and allows for updates as needed.
 
 ## [Midori-64](https://eprint.iacr.org/2015/1142.pdf) 
 

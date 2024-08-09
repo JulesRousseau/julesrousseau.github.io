@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: ''
+    org_name: 'Jules Rousseau'
+    description: 'personnal web page, Jules Rousseau, intern Inria, Irisa, Rennes, cryptography, cybersecurity, mathematics'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''

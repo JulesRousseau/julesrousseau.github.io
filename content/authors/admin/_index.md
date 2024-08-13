@@ -75,7 +75,6 @@ work:
       Lightweight symmetric cryptanalysis
       - Cube attacks, Integral distinguishers
       - MILP / SAT modelling of ASCON-128 and GIFT-64 ciphers
-
    - position: Go-kart track agent
     name: Karting de Challans
     company_url: ''

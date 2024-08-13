@@ -75,6 +75,19 @@ work:
       Lightweight symmetric cryptanalysis
       - Cube attacks, Integral distinguishers
       - MILP / SAT modelling of ASCON-128 and GIFT-64 ciphers
+
+   - position: Go-kart track agent
+    name: Karting de Challans
+    company_url: ''
+    company_logo:
+    date_start: 2020-07-01
+    date_end: 2023-08-31
+    summary: |
+      Summer job (2 months/year, for 3 years)
+      - Responsibility for track safety
+      - Group breefings in English and French
+      - Team work
+      - Mechanical skills 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:

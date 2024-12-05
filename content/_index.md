@@ -37,7 +37,7 @@ sections:
       text: |-
         **Security engineering position**
     
-        As a newcomer to the job market in cryptography, I am seeking my first experience to enhance and develop my practical knowledge in this field. I am driven by both the theory of cryptography and the practice of cybersecurity, which is why I aspire to join a company as an evaluator or an integrator. Specifically, my internship allowed me to work on lightweight encryption algorithms, and I see myself continuing in this domain.
+        As a newcomer to the job market in cryptography and information systems security, I am seeking my first professional experience to enhance and develop my practical knowledge in this field. I am deeply motivated by both the theoretical foundations of cryptography and the practical aspects of development and cybersecurity. This passion drives my aspiration to join a company as a security engineer, evaluator, integrator, or developer.
     design:
       columns: '1'
   #- block: collection
